@@ -9,8 +9,7 @@ This document is the canonical roadmap for the Backup and Imaging Initiative (Of
 ## Project Summary
 Goal: Establish a reliable, repeatable, and documented imaging and recovery system for Office, Grocery, and Hospitality environments.
 Deadline: June 30, 2026
-Budget: $5,000 (local NAS hardware) + $80/month (cloud sync)
-Bonus: $5,000 completion bonus (subject to acceptance criteria)
+Budget: $5,000 (local NAS hardware) + $80/month (cloud sync) + $1500 Local Hardware
 
 ---
 
@@ -93,20 +92,7 @@ Phase 8 — Documentation & Knowledge Transfer (Weeks 18–24)
  19. Issue #14 — Document KVM Imaging Procedures (Epic #4)
  20. Issue #21 — Create System Recovery Runbooks (Epic #4)
  21. Issue #25 — Create Troubleshooting Guides (Epic #4)
-
----
-
-## Notes on linking and GitHub constraints
-- During automated linking attempts, GitHub sub-issue API returned "Priority has already been taken" for some epics (constraints in the GitHub issue-subissue API). Because of that, this repository-level `ROADMAP.md` is the authoritative, repository-tracked hierarchy and ordered execution plan.
-- If you prefer, I can continue attempting to add GitHub sub-issue links (one-by-one, with delays) until successful; or I can add explicit child lists inside each Epic issue body (requires updating issue bodies through the API). The `ROADMAP.md` file ensures the full hierarchy is preserved in the repo and is visible to all collaborators immediately.
-
----
-
-## How to use
-- Use the Phase list above as the execution order. Complete items in order when dependencies are met.
-- Assign owners and milestones to each issue in GitHub. Link PRs to the issue numbers referenced above.
-- When an issue is closed, update `ROADMAP.md` if the chronological plan changes significantly.
-
+ 
 ---
 
 ## Verification checklist (before claiming completion)
@@ -117,12 +103,3 @@ Phase 8 — Documentation & Knowledge Transfer (Weeks 18–24)
 - [ ] Validation reports for imaging and KVM tests completed
 - [ ] All SOPs and runbooks written and reviewed
 - [ ] Training completed and sign-offs obtained
-
-
----
-
-If you want, I can now:
-- Insert explicit child lists into the Epic issue bodies (update issues #1–#4) so the GitHub UI shows the children inside the epic (requires making issue edits), or
-- Try retrying the sub-issue linking with careful rate-limited calls (one-by-one) until the API accepts them.
-
-Tell me which fallback you prefer, or I can proceed to update the Epic bodies now.
