@@ -10,6 +10,7 @@
 ## Assessment Scope
 
 This assessment defines storage infrastructure requirements for:
+
 - **Lisle NAS**: Local on-site storage for Lisle imaging operations
 - **Portage NAS**: Local on-site storage for Portage imaging operations
 - **Grocery Cloud Sync**: Off-site/cloud backup for Grocery environment images
@@ -19,6 +20,7 @@ This assessment defines storage infrastructure requirements for:
 ## Pre-Assessment Tasks
 
 ### Current Infrastructure Discovery
+
 - [ ] **KVM Devices**: What HP KVM devices are currently in use? Models, locations, quantity?
 - [ ] **KVM Purpose**: How are KVM devices currently used in RDS operations?
 - [ ] **KVM Issues**: What pain points exist with current KVM setup that we're solving?
@@ -26,6 +28,7 @@ This assessment defines storage infrastructure requirements for:
 - [ ] **Network Layout**: Document network topology at each location (Lisle, Portage, Office/Grocery/Hospitality)
 
 ### General Discovery
+
 - [ ] Review [[Project Info]] for budget, timeline, and regional locations
 - [ ] Read `PfanellaCompReview.pdf` for competitive context
 - [ ] Document current RDS imaging patterns (frequency, volume per location)
@@ -40,6 +43,7 @@ This assessment defines storage infrastructure requirements for:
 - [ ] What is the relationship between KVM devices and the SD card standardization (EPIC #3)?
 
 ### C Understand FOG network imaging requirements (throughput, latency, bandwidth)
+
 - [ ] Define imaging scope: OS images only, or application stack?
 - [ ] Identify compliance/data residency constraints
 
@@ -48,12 +52,14 @@ This assessment defines storage infrastructure requirements for:
 ## Key Questions to Answer
 
 ### Capacity & Performance
+
 - [ ] What is estimated imaging storage capacity per location (Lisle, Portage)?
 - [ ] What is the expected imaging frequency per location?
 - [ ] What are FOG network throughput requirements?
 - [ ] What latency/response time is acceptable for deployments?
 
 ### Cloud Sync Strategy (Grocery)
+
 - [ ] Should Grocery images be stored locally first, then synced to cloud?
 - [ ] Or direct cloud-primary approach?
 - [ ] What is expected bandwidth consumption?
@@ -61,12 +67,14 @@ This assessment defines storage infrastructure requirements for:
 - [ ] Recovery point objective (RPO) acceptable?
 
 ### Redundancy & Reliability
+
 - [ ] Single NAS per location, or redundant setup?
 - [ ] Backup strategy for NAS systems (local snapshots, off-site backup)?
 - [ ] Acceptable downtime for imaging operations?
 - [ ] RAID configuration recommendations?
 
 ### Hardware Constraints
+
 - [ ] Physical space available for NAS at each location?
 - [ ] Power/cooling infrastructure available?
 - [ ] Network infrastructure capable of FOG imaging traffic?
@@ -77,6 +85,7 @@ This assessment defines storage infrastructure requirements for:
 ## Deliverables
 
 ### Primary Deliverables
+
 - [ ] Storage Requirements Matrix
   - Capacity (TB) by location
   - Throughput requirements (Gbps)
@@ -96,6 +105,7 @@ This assessment defines storage infrastructure requirements for:
   - Cost breakdown
 
 ### Secondary Deliverables
+
 - [ ] Risk Assessment
   - Single points of failure
   - Mitigation strategies

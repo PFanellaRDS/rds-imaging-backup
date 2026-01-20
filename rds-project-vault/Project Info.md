@@ -2,10 +2,10 @@
 
 ## Project Overview
 
-**Organization**: Retail Data Systems (RDS)  
-**Project Goal**: Establish reliable, repeatable, and documented imaging and recovery system for Office, Grocery, and Hospitality environments  
-**Start Date**: January 2026  
-**Deadline**: June 30, 2026  
+**Organization**: Retail Data Systems (RDS)
+**Project Goal**: Establish reliable, repeatable, and documented imaging and recovery system for Office, Grocery, and Hospitality environments
+**Start Date**: January 2026
+**Deadline**: June 30, 2026
 **Status**: Phase 1 — Planning & Assessment (Weeks 1–2)
 
 ## Budget & Resources
@@ -18,7 +18,7 @@
 ## Regional Locations
 
 | Location | Purpose | Storage Model |
-|----------|---------|---|
+| ---------- | --------- | --- |
 | **Lisle** | Regional hub | ON-site NAS |
 | **Portage** | Regional hub | ON-site NAS |
 | **Office/Grocery/Hospitality** | Imaging targets | Local deployment + cloud sync (Grocery) |

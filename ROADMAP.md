@@ -7,6 +7,7 @@ This document is the canonical roadmap for the Backup and Imaging Initiative (Of
 ---
 
 ## Project Summary
+
 Goal: Establish a reliable, repeatable, and documented imaging and recovery system for Office, Grocery, and Hospitality environments.
 Deadline: June 30, 2026
 Budget: $5,000 (local NAS hardware) + $80/month (cloud sync) + $1500 Local Hardware
@@ -57,6 +58,7 @@ Budget: $5,000 (local NAS hardware) + $80/month (cloud sync) + $1500 Local Hardw
 ## Full Chronological Execution Plan (Dependency-driven)
 
 Phase 1 — Planning & Assessment (Weeks 1–2)
+
   1. Issue #19 — Assess Storage Infrastructure Requirements (Epic #2)
   2. Issue #10 — Design Office Imaging Workflow (Epic #1)
   3. Issue #13 — Design KVM Device Image Standards (Epic #3)
@@ -92,10 +94,11 @@ Phase 8 — Documentation & Knowledge Transfer (Weeks 18–24)
  19. Issue #14 — Document KVM Imaging Procedures (Epic #4)
  20. Issue #21 — Create System Recovery Runbooks (Epic #4)
  21. Issue #25 — Create Troubleshooting Guides (Epic #4)
- 
+
 ---
 
 ## Verification checklist (before claiming completion)
+
 - [ ] All infrastructure deployed and tested (Lisle & Portage NAS)
 - [ ] Office imaging solution implemented and base image created
 - [ ] KVM images created and SD cards provisioned and validated
